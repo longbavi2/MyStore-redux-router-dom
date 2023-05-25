@@ -65,9 +65,9 @@
     &__add {
         display: inline-flex;
         width: 20px;
-        padding: 5px;
+        padding: 20px;
         height: 10px;
-        font-size: 10px;
+        font-size: 30px;
         justify-content: center;
         align-items: center;
         margin-left: 2px;
@@ -78,10 +78,10 @@
         border: 1px solid #ddd;
         width: 20px;
         text-align: center;
-        font-size: 10px;
+        font-size: 30px;
         height: 10px;
         margin-left: 2px;
-        padding: 5px;
+        padding: 20px;
         div {
             width: 100%;
             height: 100%;
@@ -97,7 +97,8 @@
         margin-left: 5px;
         font-weight: 700;
         button{
-            font-size: 10px;
+            font-size: 15px;
+            padding: 10px;
         }
     }
 
