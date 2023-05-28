@@ -6,7 +6,7 @@ import { getApi } from "../../helpers/getApi";
 import "./style.scss";
 function ProductList() {
     const drawProduct = () => {
-        let api = `${API_PRODUCT}?$&q=${params.q}&_sort=${params.sort}&_order=${params.order}&_limit=${params.limit}&_page=${params.page}`;
+        let api = `${API_PRODUCT}?$&q=${params.q}&_sort=${params.sort}&_order=${params.order}`;
         console.log(api)
         getApi(api).then(data => setData(data))
     }
